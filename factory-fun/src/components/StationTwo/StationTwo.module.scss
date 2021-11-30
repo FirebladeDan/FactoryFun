@@ -1,0 +1,21 @@
+.header {
+    background-color: rgba(255, 255, 255, 0.884);
+    height: 2em;
+    text-align: center;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+
+    & .text{
+        color: rgb(63, 60, 60);
+        font-weight:400;
+        line-height: 2em;
+        font-size: 1.1em;
+    }
+}
+
+.body {
+    height: calc(100% - 2em);
+    background-color: rgba(215, 215, 228, 0.836);
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+}

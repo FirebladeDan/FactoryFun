@@ -1,0 +1,34 @@
+.container {
+    height: calc(100% - 3.6em);
+    background-image: url("../../assets/AssemblyLine.jpg");
+    background-size: cover;
+    display: grid;
+    grid-template-areas:
+    "orders stationone stationtwo"
+    "orders stationthree deliverytruck"
+}
+
+.itemorders {
+    padding: 2em;
+    grid-area: orders;
+}
+
+.itemstationone {
+    padding: 2em;
+    grid-area: stationone;
+}
+
+.itemstationtwo {
+    padding: 2em;
+    grid-area: stationtwo;
+}
+
+.itemstationthree {
+    padding: 2em;
+    grid-area: stationthree;
+}
+
+.itemdeliverytruck {
+    padding: 2em;
+    grid-area: deliverytruck;
+}
