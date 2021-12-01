@@ -9,7 +9,7 @@ import styles from './Container.module.css';
 const Container = () => (
   <div className={styles.container}>
     <div className={styles.itemorders}>
-      <Orders/>
+      <Orders />
     </div>
     <div className={styles.itemstationone}>
       <StationOne />

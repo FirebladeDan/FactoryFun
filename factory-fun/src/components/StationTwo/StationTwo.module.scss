@@ -18,4 +18,12 @@
     background-color: rgba(215, 215, 228, 0.836);
     border-bottom-left-radius: 1em;
     border-bottom-right-radius: 1em;
+    text-align: center;
+
+    & .text{
+        display:inline-flex;
+        align-items: center;
+        height: 100%;
+       
+    }
 }

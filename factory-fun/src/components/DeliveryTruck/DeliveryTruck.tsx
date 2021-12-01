@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from './DeliveryTruck.module.scss';
 
-
 const DeliveryTruck = () => (
   <React.Fragment>
     <div className={styles.header}>
